@@ -1,0 +1,12 @@
+# CARLA Python API
+# Install manually from your CARLA installation:
+#   pip install <CARLA_ROOT>/PythonAPI/carla/dist/carla-*.whl
+# carla  # not on PyPI
+
+# Core dependencies
+numpy>=1.24
+opencv-python>=4.8
+PyYAML>=6.0
+
+# YOLO training (optional, needed after dataset generation)
+ultralytics>=8.0
